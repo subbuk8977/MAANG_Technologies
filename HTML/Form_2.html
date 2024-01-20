@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM</title>
+</head>
+<body>
+	<form style="background: lightblue;">
+		<h1 align="center">Application Form</h1>
+		<table style="width:100%" cellspacing="20px">
+			<tr >
+				<td>
+					First Name : <input type="text" name="name">
+				</td>
+				<td>
+					Last Name :   <input type="text" name="name"> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Date Of Birth : <input type="date" name="date"> 
+				</td>
+				<td>
+					Age :     <input type="text" name="age">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Gender : <select name="Gender">
+						<option selected>Male</option>
+						<option>Female</option>
+						<option>Other</option>
+					</select>
+				</td>
+				<td>
+					Email Address : <input type="email" name="email">
+				</td>
+			</tr>
+		</table>
+
+		<p>Positions Available : <input type="radio" name="Positon"> Junior Developer
+			<input type="radio" name="Positon">Mid-level Developer
+			<input type="radio" name="Positon">Senior Developer
+		</p>
+		<p>
+			Programmig Languages : <input type="checkbox" name="PL">Java
+			<input type="checkbox" name="PL">JavaScript
+			<input type="checkbox" name="PL">Python
+		</p>
+
+		<p>
+			Password : <input type="password" name="pwd">
+			Confirm Password : <input type="password" name="pwd">
+		</p>
+	
+
+		<center>
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		</center>
+	</form>
+
+</body>
+</html>
