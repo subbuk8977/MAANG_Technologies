@@ -1,4 +1,6 @@
 
+// js function for addition of two numbers.
+
 function add(a,b)
 {
 	return a+b;
