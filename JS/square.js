@@ -1,3 +1,5 @@
+// js function for squaring the numberr.
+
 function square(n)
 {
 	ans=n*n;
