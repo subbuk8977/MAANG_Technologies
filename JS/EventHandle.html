@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Event Handling</title>
+</head>
+<body>
+
+		<img id="ONE" src="/home/apiiit-rkv/Pictures/5063908.jpg"  style="height: 500px;width: 1000px;">
+
+		<p id=two>Black Friday Sale!</p>
+		Get all GeeksforGeeks Courses@25% Off + Additional Cashback Upto 1500 INR Claim Deal!×
+		Skip to content
+		geeksforgeeks
+		Courses@25% OffSale
+		<p id="three">Tutorials</p>
+		Jobs
+		<p id="four">Practice</p>
+		Contests
+		<button onclick="document.body.style.backgroundColor='gray'">Click to Change</button>
+		<button onclick="funct()">Click to access image</button>
+		<script>
+			function funct()
+			{
+				document.getElementById("two").style.backgroundColor="red";
+				document.getElementById("ONE").style.height="100px"
+				document.getElementById("three").style.color="blue"
+				document.getElementById("ONE").style.border="10px solid yellow"
+				document.getElementById("four").style.width="10px"
+			}
+		</script>
+</body>
+</html>

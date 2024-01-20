@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document Object Model</title>
+</head>
+<body>
+	<div class="one">
+		For example, the printer controller controls the paper motion, the print timing. The control lines are
+		referred as I/O command. The commands are as following:
+		Control command- A control command is issued to activate the peripheral and to inform it what to do.
+		Status command- A status command is used to test various status conditions in the interface and the
+		peripheral.
+		Data Output command- A data output command causes the interface to respond by transferring data
+		from the bus into one of its registers.
+		Data Input command- The data input command is the opposite of the data output.
+
+		<p id="1">
+			In this case the interface receives on item of data from the peripheral and places it in its buffer register.
+			I/O Versus Memory Bus
+		</p>
+		<p id="2">
+			Python Programming
+		</p>
+	</div>
+
+	<script>
+		var A=document.getElementById("1");
+		console.log(A);
+		var B=document.getElementsByClassName("one");
+		console.log(B);
+		var c=document.createElement('p');
+		c.innerText="Web Development";
+		//A.remove();
+		//A.appendChild(c);
+		var x=document.getElementById("2");
+		x.replaceChild(c,x.childNodes[0]);
+		//x.removeChild(x.firstChild);
+		
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

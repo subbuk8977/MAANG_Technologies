@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM_Validation</title>
+</head>
+<body>
+
+	<div class="one">Web Technologies
+	<p id="1">Data Science Python<p>
+	<p id="2">Computer Organisation and Architecture</p>
+	</div> 
+
+	<script>
+		var a=document.getElementById("1");
+		console.log(a);
+		a.style.color="yellow"
+		var b=document.getElementById("2");
+		console.log(b);
+		var c=document.getElementsByClassName("one");
+		console.log(c);
+
+		var h=document.createElement('p');
+		h.innerText="Hello HTML";
+		var s=document.getElementById("insert")
+		// b.insertBefore(h,s);
+		a.insertBefore(h,null);
+
+		// var d=document.createElement('p');
+		// d.innerText="Compiler Design"
+		// b.appendChild(d);
+		var e=document.createElement('p');
+		e.innerText="Operational Reasearch"
+		// a.remove();
+		b.replaceChild(e,b.childNodes[0])
+
+
+		console.log(document.querySelectorAll('p'));
+
+	</script>
+</body>
+</html>
